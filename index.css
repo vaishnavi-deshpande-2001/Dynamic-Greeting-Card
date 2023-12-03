@@ -1,0 +1,65 @@
+.heading{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding:50px;
+    font-family: Cooper;
+   
+}
+.gm_marquee{
+    margin-left: -20px;
+    color: white;
+    font-size: 30px;
+  font-family: 'Bad Script', cursive;
+  /* color:#111; */
+  animation: glowing 10s linear infinite;
+}
+@keyframes glowing {
+    0%, 100% {
+      color: #050101;
+      filter: blur(px);
+      text-shadow: 0 0 10px red,
+                   0 0 20px red,
+                   0 0 40px red,
+                   0 0 80px red,
+                   0 0 120px red,
+                   0 0 200px red,
+                   0 0 300px red,
+                   0 0 400px red;
+    } 5%, 95% {
+      color: white;
+      text-shadow: none;
+      filter: blur(0px);
+    }
+  }
+
+  .ga_marquee{
+    margin-left: -20px;
+    color: Black;
+    font-size: 30px;
+  font-family: 'Bad Script', cursive;
+  /* color:#111; */
+  animation: glowing 10s linear infinite;
+}
+@keyframes glowing {
+    0%, 100% {
+      color: white;
+      filter: blur(px);
+      text-shadow: 0 0 10px red,
+                   0 0 20px red,
+                   0 0 40px red,
+                   0 0 80px red,
+                   0 0 120px red,
+                   0 0 200px red,
+                   0 0 300px red,
+                   0 0 400px red;
+    } 5%, 95% {
+      color: black;
+      text-shadow: none;
+      filter: blur(0px);
+    }
+  }
+
+  
